@@ -26,3 +26,5 @@ print(x.time())
 print(x.date())
 # print month in number
 print(x.month)
+
+print(x.strftime("%c"))
