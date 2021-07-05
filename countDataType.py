@@ -1,3 +1,4 @@
+test_list = [2, 1.2, 1.4,'hello', 'nice', True, False]
 print("The original list is : " + str(test_list))
 
 intCount = len(list(i  for i in test_list if isinstance(i, int) and ((i!=True) and (i!=False))))
