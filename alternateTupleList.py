@@ -8,13 +8,13 @@ def opList1(lis,tup):
     for i in range(8):
         if (i%2==0):
             opList.append(tup[int(i / 2)])
-            #oplst.append(tup[int(i/2)])
+            
 
         if (i%2!=0):
 
 
             opList.append(lis[int(i / 2)])
-            #oplst.append(lis[int(i/2)])
+            
 
     return opList
 def opList2(lis,tup):
