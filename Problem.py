@@ -1,4 +1,4 @@
-car_list = input("Enter the list : ")
+car_list = input("Enter the list: ")
 car_list =  car_list.split()
 def overtake():
     overtaken = 0
