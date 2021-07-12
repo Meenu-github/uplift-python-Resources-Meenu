@@ -6,7 +6,6 @@ num2 = st.number_input("Enter the Second Number")
 output_type = st.radio(
 "Select Output Type", ("Int", "Float"))
 st.write("### Output :")
-# Doing required operation regarding the selected option
 if output_type == "Float":
 
     if operation == "Add":
@@ -52,3 +51,4 @@ if output_type == "Int":
         st.write(f"## {num1}^{num2} = {result}")
     else:
         st.write("Choose a valid operation")
+st.balloons()
