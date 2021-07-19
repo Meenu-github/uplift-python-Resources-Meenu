@@ -33,3 +33,4 @@ st.sidebar.header("Info")
 st.sidebar.header("Contact us")
 color = st.color_picker('Choose A Color', '#ffffff')
 st.write('The current color is', color)
+st.su
