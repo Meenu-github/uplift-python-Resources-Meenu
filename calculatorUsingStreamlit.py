@@ -51,4 +51,3 @@ if output_type == "Int":
         st.write(f"## {num1}^{num2} = {result}")
     else:
         st.write("Choose a valid operation")
-st.balloons()

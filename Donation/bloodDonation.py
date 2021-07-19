@@ -14,9 +14,6 @@ def bloodDonate():
     with st.form(key="Registration for Blood Donation"):
         bloodname = st.text_input("Enter your name : ")
         bgrp = st.text_input("Enter your blood group : ")
-        if bgrp!=None:
-            if bgrp!= ('A+' or 'A-' or 'B+' or 'B-' or 'AB+' or 'AB-' or 'O+' or 'O-'):
-                st.warning("Please enter a valid blood group.")
         age = st.slider(label="Enter your age ", min_value=18, max_value=45)
         bloodidProof =  st.text_input("Enter your Id Proof Number : ")
         

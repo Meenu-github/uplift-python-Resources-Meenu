@@ -18,5 +18,5 @@ def loginPages():
                 st.success("Successfully sign up")
     st.title("Welcome and login to the page if not registered sign up now")
     col1,col2 = st.beta_columns(2)
-    col1 = st.button("Login", on_click=login, args=None, kwargs=None)
-    col2 = st.button("Sign up", on_click=sign_up,args=None,kwargs=None)
+    col1 = st.button("Login", on_click=login)
+    col2 = st.button("Sign up", on_click=sign_up)
