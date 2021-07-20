@@ -7,7 +7,7 @@ ws.title = "blooddonation"
 def bloodDonate():
     st.title("Blood Donation")
     from PIL import Image
-    image = Image.open("E:\Meenu\Snapchat\_bloodDonation.jpg")
+    image = Image.open("https://github.com/Meenu-github/donationApp/blob/main/_bloodDonation.jpg")
     st.image(image, caption='Blood Donation')
     st.write("This is the blood donation page.")
     st.write("Here if you are willing to donate blood\n you have to register yourself.")
@@ -22,10 +22,12 @@ def bloodDonate():
             ws.append([bloodname,bgrp,age,bloodidProof])
             wb.save('bloodDonation.xlsx')
             st.success("Successfully submitted your data.")
+            st.info("Select a date to donate blood in your nearby blood donation center : ")
+            
             
         else:
             st.info("Please register yourself.")
-    st.info("Select a date to donate blood in your nearby blood donation center : ")
+    
 print(bloodDonate())   
     #adding date picker..
 
